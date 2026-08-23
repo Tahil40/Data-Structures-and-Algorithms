@@ -18,6 +18,7 @@ public class CheckPrimeNumber {
             //         isBooleanNumber = false;
             //     };
             // };
+            
             for (int i = 2; i <= Math.sqrt(number); i++) {
                 // the prime number can only have two factors the 1 and the number itself....
                 if (number % i == 0) {
