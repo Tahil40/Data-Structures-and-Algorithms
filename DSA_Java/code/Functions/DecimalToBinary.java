@@ -8,7 +8,7 @@ public class DecimalToBinary {
         
         while(number!=0){
             int reminder = number % 2;
-            binaryNumber = binaryNumber + (reminder * (int) Math.pow(10, power));
+            binaryNumber = binaryNumber + (reminder * (int) Math.pow(10, power));//this method will concatinate numbers during addition....
             System.out.println("Binary Number is; "+ binaryNumber);
             power++; 
             number = number / 2; 
